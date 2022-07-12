@@ -9,7 +9,7 @@
      🔸PHP<br/>
      🔸Database - MYSQL<br/>
      
-In this project I done the payment part.(This scope is selected only for the project purpose)<br/>
-    🔸User can do his/her payment using credit card<br/>
-    🔸User can update his/her credit card details<br/>
-    🔸If user want to delete his/her record, user can delete the record<br/>
+In this project, I did the payment part. (This scope is selected only for the project's purpose.)<br/>
+    🔸The user can make his or her payment using a credit card.<br/>
+    🔸The user can update his or her credit card details<br/>
+    🔸If a user wants to delete his or her record, they can delete the record.<br/>
