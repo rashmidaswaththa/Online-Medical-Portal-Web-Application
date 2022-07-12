@@ -1,0 +1,126 @@
+body{
+  background-color: #b2b5ba;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  background-color: #123c69;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo img {
+  height: 20vh;
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  color: rgb(223, 217, 217);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 14px;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-links a:hover {
+  background-color: #ac3b61;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links button {
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  background-color: #bab2b5;
+  color: #123c69;
+}
+
+.nav-links button:hover {
+  background-color: #ac3b61;
+  color: rgb(230, 223, 223);
+}
+
+
+#car_img{
+	width: 100%;
+}
+
+.footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #123c69;
+  color: white;
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.set1,
+.set2,
+.set3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.set1-links,
+.set2-links,
+.set3-links {
+  list-style: none;
+}
+
+.set1-links a {
+  text-decoration: none;
+  color: white;
+}
+
+
+     
+   
+
+	
+
+
+
+
+

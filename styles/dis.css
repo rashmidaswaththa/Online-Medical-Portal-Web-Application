@@ -1,0 +1,188 @@
+body{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  background-color: #123c69;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo img {
+  height: 20vh;
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  color: rgb(223, 217, 217);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 18px;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-links a:hover {
+  background-color: #ac3b61;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links button {
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  background-color: #bab2b5;
+  color: #123c69;
+}
+
+.nav-links button:hover {
+  background-color: #ac3b61;
+  color: rgb(230, 223, 223);
+}
+
+
+.ccdata_tbl{
+  border-style: none;
+  border-color: DarkBlue;
+}
+
+
+
+.button {
+  background-color: #7CB9E8; 
+  border: none;
+  color: black;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 20px;  
+  cursor: pointer;
+  margin-left: 10%;
+  font-family: Georgia;
+  font-weight: bold;
+   
+
+}
+
+.button a{
+  text-decoration: none;
+}
+
+.button1 {
+  background-color: #7CB9E8; 
+  border: none;
+  color: black;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 20px;  
+  cursor: pointer;
+  margin-left: 10%;
+  font-family: Georgia;
+  font-weight: bold;
+
+   
+
+}
+
+.button1 a{
+  text-decoration: none;
+}
+
+.para1{
+  font-size: 25px;
+  font-family: Georgia;
+
+
+}
+
+table{
+  background-color: white;
+}
+
+td{
+  text-align: center;
+  padding: 35px;
+  background-color: #efbe99;
+  font-size: 25px;
+}
+
+th{
+  text-align: center;
+  padding: 20px;
+  background-color: #EFDECD;
+  font-size: 25px;
+}
+
+
+
+.footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #123c69;
+  color: white;
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.set1,
+.set2,
+.set3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.set1-links,
+.set2-links,
+.set3-links {
+  list-style: none;
+}
+
+.set1-links a {
+  text-decoration: none;
+  color: white;
+}
